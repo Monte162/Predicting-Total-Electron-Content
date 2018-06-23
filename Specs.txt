@@ -1,0 +1,48 @@
+1: The input file name format:
+	<station code-4><day of the year-3><session_no-(0-9a-z)>.<last two digits of year><type of file-o> 
+	-Only o type file(mostly)
+	-File's name should follow format.
+	-Day of year instead of date.
+	
+2: User's directory:
+	-Name=username
+	-Contents: brdc.
+		   cord
+		   DCB
+ 		   rinex
+		   TEC
+
+3: brdc:
+	-<brdc><day of year><session no-0>.<last two digits of year><n>
+	-from FTP link.
+
+4:cord:
+Ask latitude, longitude and altitude in decimal degrees. Write into a file called 'co.all'
+co.all:
+<station name> <latitude> <longitude> <altitude>
+
+5: Total input:
+a: Start day
+b: End day
+c: Station name
+d: Year
+
+e: Latitude
+f: Longitude
+g: Altitude
+OR a file called 'co.all'
+
+h: Run IRI model? (Y/N)
+
+h: Input file (observation) in rinex
+
+6: DCB: Bias directory. From FTP.
+  <P1C1/P1P2><year><month>
+
+7: Output files (inside TEC) :
+	Log file
+	Bias file
+	CVTEC
+
+8: CVTEC format: (26 columns)
+	1 header line. starts with #

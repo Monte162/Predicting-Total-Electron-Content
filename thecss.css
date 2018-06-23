@@ -1,0 +1,142 @@
+body 
+{
+	background-color: #FFFFFF;
+	font-style: bold;
+	color: #946D2B ;
+	font-family: "Arial",Times, serif;
+	font-size: 100%;
+}
+fieldset
+{
+	display:none;
+}
+h1 
+{
+	text-align: center;
+	width: 96.8%;
+	padding: 10px;
+	/*border: 20px double #009688;*/
+	margin: auto; 
+}
+h2
+{
+	text-align: center;
+}
+input[type="text/plain"]
+{ 
+	border:none;
+	width :25%;
+	padding: 12px 10px;
+	margin-left: 38.45%;
+	box-sizing: border-box;
+}
+input[type="password"]
+{
+	border:none;
+	width :25%;
+	padding: 12px 10px;
+	margin-left: 38.45%;
+	box-sizing: border-box;
+}
+input[type="submit"]
+{
+	border:none;
+	color: #946D2B;
+	background-color:#1A237E;
+	font-size: 100%;
+	cursor: pointer;
+	width: 200px;
+	height: 30px;
+	padding: 0px 10px;
+	text-align: center;
+}
+input[type="file"]
+{
+    display: block !important;
+    width: 157px !important;
+    height: 57px !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
+}
+input[type="submit"]:hover
+{
+	background-color: #004D40;	
+	border:none;
+}
+label[id="ylabel"]
+{
+	margin-left: 48%;	
+}
+label
+{
+	margin-left: 45%;
+}
+.inputfile
+{
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile +label
+{
+	height: 30px;
+	padding: 8px 50px;
+	text-align: center;
+	cursor: pointer;
+	border:none;
+	color: #946D2B;
+	background-color:#1A237E;
+	font-size: 100%;
+}
+.inputfile:focus +label,
+.inputfile+label:hover
+{
+	background-color: #004D40;	
+	border:none;
+}
+error
+{
+	color: #d50000;
+	font-style: italic;
+	margin-left:48%;
+}
+error1
+{
+	color: #d50000;
+	font-style: italic;
+	margin-left: 45%;
+}
+ul.navbar
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow: hidden;
+	background-color:#009688;
+}
+ul.navbar li 
+{
+	float:left;
+}
+ul.navbar li a 
+{
+    display: inline-block;
+    color: #E0E0E0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+ul.navbar li a:hover
+{
+	background-color: #006064;
+}
+ul.navbar li.icon
+{
+	display:none;
+}
